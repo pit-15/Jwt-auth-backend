@@ -29,10 +29,14 @@ A simple Node.js backend API demonstrating **JWT-based authentication** with **r
 - mongoose – MongoDB ODM
 - dotenv – Environment variable management
 
+---
+
 ## Environment Variables
 PORT – Port on which the server will run (default 5000)
 MONGO_URI – Your MongoDB connection string
 JWT_SECRET – Secret key used to sign JWT tokens (keep this private!)
+
+---
 
 ## API Endpoints
 Public Routes
