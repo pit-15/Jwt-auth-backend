@@ -39,12 +39,13 @@ JWT_SECRET – Secret key used to sign JWT tokens (keep this private!)
 ---
 
 ## API Endpoints
-Public Routes
+-Public Routes
  -POST /register – Register a new user
  -POST /login – Login and receive JWT token
-Protected Routes
--GET /admin – Only admin can access
--GET /manager – admin and manager can access
--GET /user – admin, manager, and user can access
+ 
+-Protected Routes
+ -GET /admin – Only admin can access
+ -GET /manager – admin and manager can access
+ -GET /user – admin, manager, and user can access
 
 Note: All protected routes require the Authorization: Bearer <JWT> header.
